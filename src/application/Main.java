@@ -20,7 +20,9 @@ public class Main extends Application {
 			VBox root = new VBox();
 
 			root.getChildren().add(new Label ("Raisa's Label"));
+			root.getChildren().add(new Label ("Raisa's Branch"));
 			root.getChildren().add(new Label("Parsa's Branch"));
+
 		
 
 			Scene scene = new Scene(root,400,400);
